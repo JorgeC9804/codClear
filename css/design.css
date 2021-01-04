@@ -1,0 +1,95 @@
+/*======================GENERAL=========================*/
+* {
+    margin: 0px;
+  }
+  
+  .centerXY-some {/*Centralizar x-y*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /*======================SIZE COLUMNS=========================*/
+  .gdcol-12 {
+    width: 100%;
+  }
+  
+  .gdcol-8 {
+    width: 80%;
+  }
+  
+  .gdcol-6 {
+    width: 50%;
+  }
+  
+  .gdcol-5 {
+    width: 20%;
+  }
+  
+  .gdcol-4 {
+    width: 33.33%;
+  }
+  
+  .gdcol-3 {
+    width: 25%;
+  }
+  
+  .gdcol-2 {
+    width: 20%;
+  }
+  
+  
+  /*======================BACKGROUND COLOR=========================*/
+  .bgd-cr-D09619 {/*yellow*/
+    background-color: #D09619;
+  }
+  
+  .bgd-cr-609D12 {/*green*/
+    background-color: #609D12;
+  }
+  
+  .bgd-cr-1D91C3 {/*blue*/
+    background-color: #1D91C3;
+  }
+  
+  .bgd-cr-A237EA {/*purple*/
+    background-color: #A237EA;
+  }
+  
+  .bg-cr- {
+    background-color: rgb(199, 27, 85);
+  }
+  
+  .bg-cr-- {
+    background-color: rgb(192, 58, 18);
+  }
+  
+  .br-cr--- {
+    background-color: rgb(255, 37, 37);
+  }
+  
+  
+  /*================================ROW=====================================*/
+  .content-row-general {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  
+  /*======================SECTION=========================*/
+  .sec-content {
+    height: 60px;
+    border: 2px solid black;
+    transition-duration: .3s;
+    /*background-color: #D09619;*/ 
+  }
+  
+  
+  /*======================HOVER=========================*/
+  
+  .content-row-general:hover .sec-content {
+    background-color: gray;/*rgb(38, 230, 236);*/
+    transform: translate(26px);
+    height: 100px;
+  }
